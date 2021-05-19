@@ -1,0 +1,147 @@
+/* 
+font-family: 'Lobster', cursive; 
+font-family: 'Nunito', sans-serif;
+
+fondo           c8c6a7
+segundo_fondo   92967d
+vivos           6e7c7c
+text            435560
+*/
+
+html{
+    scroll-behavior: smooth;
+    background-color: #f5f3da;
+}
+
+nav{
+    background: rgb(255,255,255);
+    background: linear-gradient(48deg, rgba(255,255,255,1) 0%, rgba(221,220,196,1) 68%, rgba(214,213,186,1) 100%);
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 0px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-family: 'Lobster', cursive;
+    font-size: 48px;
+    color: #435560; 
+    text-align: center;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+}
+
+#hero h1{
+    font-family: 'Nunito', sans-serif;
+    font-size: 36px;
+    color: #435560;
+}
+#hero h2{
+    font-family: 'Nunito', sans-serif;
+    font-size: 24px;
+    color: #435560; 
+}
+#ebrio{
+    font-family: 'Nunito', sans-serif;
+    font-size: 36px;
+    color: #435560;
+}
+
+#hero p{
+    font-family: 'Nunito', sans-serif;
+    color: #435560;
+}
+
+#hero img{
+    border-radius: 20px;
+    width: 700px;
+    background-size: cover;
+}
+
+#navbar{
+     display: flex;
+     justify-content: space-around;
+     width: 400px;
+}
+
+#burger{
+    background-image: url("http://1.bp.blogspot.com/-PYHRf4t13DM/V3320p4ncjI/AAAAAAAAB6U/rod8bPLJuecJOwjA4QWmuq2xxEJGUoL5gCK4B/s1600/burger.jpg");
+}
+
+#cerveza{
+    background-image: url("https://www.identidadcervecera.com/arrib/2020/04/economia-y-cerveza.jpg");
+}
+
+#pizza{
+    background-image: url("http://1.bp.blogspot.com/-PYHRf4t13DM/V3320p4ncjI/AAAAAAAAB6U/rod8bPLJuecJOwjA4QWmuq2xxEJGUoL5gCK4B/s1600/burger.jpg");
+}
+
+#hero{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+#hero div{
+    position: relative;
+}
+#eslogan{
+    align-items: center;
+    padding: 50px;
+    border-radius: 20px;
+    position: absolute;
+    z-index: 1;
+    right: -80px;
+    height: 250px;
+    top: 70px;
+    width: 500px;
+    background-color: #c8c6a7;
+    box-shadow: 5px 10px 24px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 5px 10px 24px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 10px 24px 0px rgba(0,0,0,0.75);
+}
+#container-btn{
+    text-align: center;
+}
+
+#eslogan p{
+    text-align: center;
+    padding: 0 50px 10px 0;
+}
+
+#btn-conocenos{
+    border: 2px solid #3d84b8;
+    padding: 5px 20px;
+    border-radius: 8px;
+    background-color: #ebeadd;
+    color: #3d84b8;
+}
+
+#btn-conocenos:hover{
+    background-color: #3d84b8;
+    color: #fff;
+}
+
+#productos{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+
+
